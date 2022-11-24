@@ -1,0 +1,89 @@
+/* Dropdwon Button */
+.dropbtn {
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+}
+
+/*The container <div> - needed to position the dropdown content */
+.dropdown {
+        position: relative;
+        display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 250px;
+}
+
+/* Links inside the drowdown */
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: yellow;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content containe when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+
+.red-bg {
+    background-color: red;
+    }
+
+.orange-bg {
+    background-color:orange;
+    }
+
+.purple-bg {
+    background-color:purple;
+    }
+
+.green-bg {
+    background-color:green;
+    }
+
+.lightgrey-bg {
+    background-color:lightgrey;
+}
+
+.greybutton {
+    height: 50px;
+    background-color: lightgrey;
+}
+
+.redbutton {
+    height: 50px;
+    border: 1px solid lightgrey;
+    background-color: red;
+}
+
+.orangebutton {
+    height: 50px;
+    border: 1px solid lightgrey;
+    background-color: orange;
+}
+
+.purplebutton {
+    height: 50px;
+    border: 1px solid lightgrey;
+    background-color: purple;
+}
+
+.greenbutton {
+    height: 50px;
+    border: 1px solid lightgrey;
+    background-color: green;
+}
